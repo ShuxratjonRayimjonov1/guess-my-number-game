@@ -135,6 +135,7 @@ document.querySelector(".again").addEventListener("click",function(){
   document.querySelector(".number").style.width="15rem";
   document.querySelector("body").style.backgroundColor='#222';
   document.querySelector(".check").style.opacity="1.0";
+  randomNumber=Math.floor(Math.random()*20)+1;
 
 
 
