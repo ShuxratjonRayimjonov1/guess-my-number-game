@@ -115,7 +115,7 @@ else if(guess===randomNumber){
   document.querySelector(".number").textContent=randomNumber;
 document.querySelector(".message").textContent="Wonderfull !!! you choose correct number ";
 document.querySelector("body").style.backgroundColor='#60b347';
-  document.querySelector(".number").textContent="Greaat !!! you win.";
+  document.querySelector(".number").textContent="Great !!! you win.";
 document.querySelector(".number").style.width="60rem";
   document.querySelector(".check").style.opacity="0.0";
 if(yourscore>highscore){
